@@ -43,12 +43,13 @@ public class ArrayOperations
             if (b[j] == a[i] )
             {
                // System.out.println("Common data is: " + b[j] + " ") ;
+               c[count] = b[j];
                 count ++;
-            } else {
-                
-            }
+            } 
         }
       }
+      
+       System.out.print("Common data is: ") ;
       System.out.println("Number of common data is: " + count) ;
     }
       
