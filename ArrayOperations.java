@@ -83,12 +83,12 @@ public class ArrayOperations
       {
           int num = in.nextInt();
           values[currentSize] = num;
-          System.out.println("Enter data for array " +arrayIndex+ " (0 to finish): " + values[currentSize]);
           if(num == 0)
           {
               break;
           }
           currentSize++;
+          System.out.println("Enter data for array " +arrayIndex+ " (0 to finish): " + values[currentSize]);
       }
       return values;
    }
