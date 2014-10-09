@@ -29,6 +29,7 @@ public class ArrayOperations
    public static void displayCommon(int[] a, int[] b)
    {
       int count = 0;
+      int[] c = new int[a.length];
       
       if (a.length == 0 && b.length == 0)
       {
@@ -41,7 +42,7 @@ public class ArrayOperations
         {
             if (b[j] == a[i] )
             {
-                System.out.println("Common data is: " + b[j] + " ") ;
+               // System.out.println("Common data is: " + b[j] + " ") ;
                 count ++;
             } else {
                 
