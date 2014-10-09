@@ -37,11 +37,11 @@ public class ArrayOperations
       
       for (int i =0; i<a.length; i++)
       {
-        for (int j =0; j<b.length; i++)
+        for (int j =0; j<b.length; j++)
         {
-            if (a[i] == b[j])
+            if (b[j] == a[i] )
             {
-                System.out.println("Common data is: " + a[i] + " ") ;
+                System.out.println("Common data is: " + b[j] + " ") ;
                 count ++;
             } else {
                 
