@@ -74,15 +74,16 @@ public class ArrayOperations
    */
    public static int[] fillArray(int n, int arrayIndex)
    {
-      final int INITIAL_SIZE = n; 
+      final int INITIAL_SIZE = 100; 
       int [] values = new int[INITIAL_SIZE];
-      System.out.println("Enter data for array "+arrayIndex+ "(0 to finish): ");
+      System.out.println("Enter data for array " +arrayIndex+ " (0 to finish): ");
       Scanner in = new Scanner(System.in);
       int currentSize = 0;
-      while (in.hasNextInt() && currentSize < n)
+      while (in.hasNextInt() && currentSize < values.length)
       {
           int num = in.nextInt();
           values[currentSize] = num;
+          System.out.println("Enter data for array " +arrayIndex+ " (0 to finish): " + values[currentSize]);
           if(num == 0)
           {
               break;
