@@ -59,7 +59,7 @@ public class ArrayOperations
    {
       for (int i = 0; i < data.length; i++)
       {
-        if(i > 0)
+        if(i > 0 && i < data.length)
         {   
             System.out.print(" ");
         }
@@ -88,7 +88,7 @@ public class ArrayOperations
               break;
           }
           currentSize++;
-          System.out.println("Enter data for array " +arrayIndex+ " (0 to finish): " + values[currentSize]);
+          System.out.println("Enter data for array " +arrayIndex+ " (0 to finish): ");
       }
       return values;
    }
