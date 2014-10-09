@@ -74,7 +74,7 @@ public class ArrayOperations
    */
    public static int[] fillArray(int n, int arrayIndex)
    {
-      final int INITIAL_SIZE = 100; 
+      final int INITIAL_SIZE = n; 
       int [] values = new int[INITIAL_SIZE];
       System.out.println("Enter data for array " +arrayIndex+ " (0 to finish): ");
       Scanner in = new Scanner(System.in);
