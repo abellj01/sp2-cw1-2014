@@ -53,9 +53,9 @@ public class ArrayOperations
        
        for (int i =0; i<=count; i++)
       {
-          System.out.print(c[i]+" ");
-          System.out.println();
+          System.out.print(c[i] + " ");
       }
+       System.out.println();
       System.out.println("Number of common data is: " + count) ;
     }
       
