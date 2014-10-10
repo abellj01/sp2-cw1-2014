@@ -130,7 +130,7 @@ public class ArrayOperations
         {
             if (b[j] != a[i] )
             {
-               // System.out.println("Common data is: " + b[j] + " ") ;
+               // System.out.println("Non Common data in array 1 is: " + b[j] + " ") ;
                a1[k] = a[i];
                 k++;
             } 
