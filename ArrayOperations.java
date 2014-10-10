@@ -11,8 +11,8 @@ public class ArrayOperations
 {
    public static void main(String[] args)
    {
-      int [] x = fillArray(7,1);
-      int [] y = fillArray(7,2);
+      int [] x = fillArray(4,1);
+      int [] y = fillArray(4,2);
       System.out.print("Values for array 1 is: ");
       displayElements(x);
       System.out.println();
@@ -84,7 +84,7 @@ public class ArrayOperations
    {
       final int INITIAL_SIZE = n; 
       int [] values = new int[INITIAL_SIZE];
-      System.out.println("Enter data for array " +arrayIndex+ " (0 to finish): ");
+      System.out.print("Enter data for array " +arrayIndex+ " (0 to finish): ");
       Scanner in = new Scanner(System.in);
       int currentSize = 0;
       while (in.hasNextInt() && currentSize < values.length)
@@ -96,7 +96,7 @@ public class ArrayOperations
               break;
           }
           currentSize++;
-          System.out.println("Enter data for array " +arrayIndex+ " (0 to finish): ");
+          System.out.print("Enter data for array " +arrayIndex+ " (0 to finish): ");
       }
       return values;
    }
