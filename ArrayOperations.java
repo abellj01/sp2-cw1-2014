@@ -29,6 +29,9 @@ public class ArrayOperations
    public static void displayCommon(int[] a, int[] b)
    {
       int count = 0;
+      int countA = 0;
+      int countB = 0;
+      
       int[] c = new int[a.length];
       
       if (a.length == 0 && b.length == 0)
@@ -55,8 +58,11 @@ public class ArrayOperations
       {
           System.out.print(c[i] + " ");
       }
-       System.out.println();
+      
+      System.out.println();
       System.out.println("Number of common data is: " + count) ;
+      System.out.println("Non-common values for array 1 is: " + countA) ;
+      System.out.println("Non-common values for array 1 is: " + countB) ;
     }
       
    /**
