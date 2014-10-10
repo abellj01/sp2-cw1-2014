@@ -107,4 +107,36 @@ public class ArrayOperations
       return values;
    }
    
+   /**
+      displays the non common values between two arrays
+      @param two integer arrays
+   */
+   /**
+   public static void displayNonCommon(int[] a, int[] b)
+   {
+      int k = 0;
+      
+      int[] a1 = new int[a.length];
+      int[] b1 = new int[b.length];
+      
+      if (a.length == 0 && b.length == 0)
+      {
+        System.out.println ("Both arrays are empty.");
+      }
+      
+      for (int i =0; i<a.length; i++)
+      {
+        for (int j =0; j<b.length; j++)
+        {
+            if (b[j] != a[i] )
+            {
+               // System.out.println("Common data is: " + b[j] + " ") ;
+               a1[k] = a[i];
+                k++;
+            } 
+        }
+      }
+   }
+   */
+   
 }
